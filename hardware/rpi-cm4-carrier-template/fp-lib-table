@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/CM4IO/CM4IO.pretty")(options "")(descr ""))
+  (lib (name "USB4110-GF-A_REVB")(type "KiCad")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/USB4110-GF-A_REVB/USB4110-GF-A_REVB.pretty")(options "")(descr ""))
+  (lib (name "SMBJ5.0A-TR")(type "KiCad")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/SMBJ5.0A-TR/SMBJ5.0A-TR.pretty")(options "")(descr ""))
+  (lib (name "APA2106SUCK")(type "KiCad")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/APA2106SUCK/APA2106SUCK.pretty")(options "")(descr ""))
+  (lib (name "ERJ-PB6B5101V")(type "KiCad")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/ERJ-PB6B5101V/ERJ-PB6B5101V.pretty")(options "")(descr ""))
+  (lib (name "NLV17SZ07DFT2G")(type "KiCad")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/NLV17SZ07DFT2G/NLV17SZ07DFT2G.pretty")(options "")(descr ""))
+)

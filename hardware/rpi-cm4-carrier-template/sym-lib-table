@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "CM4IO")(type "KiCad")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/CM4IO/CM4IO.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4110-GF-A_REVB")(type "Legacy")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/USB4110-GF-A_REVB/USB4110-GF-A_REVB.lib")(options "")(descr ""))
+  (lib (name "SMBJ5.0A-TR")(type "Legacy")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/SMBJ5.0A-TR/SMBJ5.0A-TR.lib")(options "")(descr ""))
+  (lib (name "APA2106SUCK")(type "Legacy")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/APA2106SUCK/APA2106SUCK.lib")(options "")(descr ""))
+  (lib (name "ERJ-PB6B5101V")(type "Legacy")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/ERJ-PB6B5101V/ERJ-PB6B5101V.lib")(options "")(descr ""))
+  (lib (name "NLV17SZ07DFT2G")(type "Legacy")(uri "C:/Users/nicho/Documents/git/HomeServer/hardware/libraries/NLV17SZ07DFT2G/NLV17SZ07DFT2G.lib")(options "")(descr ""))
+)

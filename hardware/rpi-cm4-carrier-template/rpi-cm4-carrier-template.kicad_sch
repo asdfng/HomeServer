@@ -1,0 +1,112 @@
+(kicad_sch (version 20210621) (generator eeschema)
+
+  (uuid 66dc61e5-068b-4156-b69a-b996048bea67)
+
+  (paper "A4")
+
+  (title_block
+    (title "Raspberry Pi Compute Module 4 Carrier Template")
+    (date "2021-08-25")
+    (rev "v01")
+    (comment 2 "creativecommons.org/licenses/by-sa/4.0/")
+    (comment 3 "License: CC BY 4.0")
+    (comment 4 "Author: Nicholas Gregg")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 101.6 50.8) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid fc4c71a5-1008-4ac4-98db-57c838c57d91)
+    (property "Sheet name" "CM4 GPIO" (id 0) (at 101.6 50.1645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-gpio.kicad_sch" (id 1) (at 101.6 89.4085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 101.6 101.6) (size 38.1 38.1)
+    (stroke (width 0) (type solid) (color 132 0 132 1))
+    (fill (color 255 255 255 0.0000))
+    (uuid caa71f4c-454d-4ac9-b287-456eafb34991)
+    (property "Sheet name" "CM4 High Speed" (id 0) (at 101.6 100.9645 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "cm4-high-speed.kicad_sch" (id 1) (at 101.6 140.2085 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91" (page "3"))
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991" (page "3"))
+  )
+
+  (symbol_instances
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/230650eb-8852-4c76-b63c-12ec79910b81"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/31551326-27c6-4bba-a0c0-abe772948a8c"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/fd2f91b1-bc4f-440a-9886-5dd83ff1d7ca"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/09dd2b29-2744-459d-aa06-fb7bbcd5f43c"
+      (reference "#PWR04") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/65a36b71-b279-4b61-9787-3f75004d8b3f"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/355c7772-a84f-4ac1-b551-5086ec73ba9b"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/491accc4-ee67-4604-8f16-3bfccb786804"
+      (reference "#PWR07") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/0d0caf91-4ece-48ed-a178-43a8b49f3526"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/81f0d702-912e-410d-83f3-c9f3bd3f7f28"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/4f14133b-d727-49d1-a72c-f20de4669ddb"
+      (reference "CR1") (unit 1) (value "SMBJ5.0A-TR") (footprint "SMBJ5.0A-TR:SMBJ5.0A-TR")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/c6a24ff0-a461-44ff-bff8-c817dfa28278"
+      (reference "J1") (unit 1) (value "USB4110-GF-A_REVB") (footprint "USB4110-GF-A_REVB:GCT_USB4110-GF-A_REVB")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6ba9a809-9f4a-4c8b-b5a8-b1d04aa71ca3"
+      (reference "LED1") (unit 1) (value "Green LED") (footprint "APA2106SUCK:APA2106SUCK")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/799cca4d-95b5-4300-a346-6c13ee3ae207"
+      (reference "LED2") (unit 1) (value "Red LED") (footprint "APA2106SUCK:APA2106SUCK")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/463d59ed-ef45-4402-9140-190527b0aff8"
+      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/fafda8be-1326-444e-bcc1-8cb4aded3240"
+      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0ffe6f4e-07be-4301-8e64-73de82b31e10"
+      (reference "R1") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/7689b71c-e67e-4da7-97cb-60aa7de9c4c4"
+      (reference "R2") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/e11961d6-a233-40f3-88cc-7ffbe787fe5b"
+      (reference "R3") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9d06011e-966a-4c6e-8ab0-29e9a621b294"
+      (reference "R4") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+    )
+    (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6176bea6-7378-4da9-914f-02e20a37c591"
+      (reference "U1") (unit 1) (value "NLV17SZ07DFT2G") (footprint "NLV17SZ07DFT2G:NLV17SZ07DFT2G")
+    )
+  )
+)
