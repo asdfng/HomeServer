@@ -1221,7 +1221,7 @@
     (uuid fafda8be-1326-444e-bcc1-8cb4aded3240)
     (property "Reference" "Module1" (id 0) (at 73.66 33.02 0))
     (property "Value" "ComputeModule4-CM4" (id 1) (at 73.66 35.56 0))
-    (property "Footprint" "CM4IO:Raspberry-Pi-4-Compute-Module" (id 2) (at 76.2 133.35 0)
+    (property "Footprint" "CM4IO:MUnitA" (id 2) (at 76.2 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 76.2 133.35 0)

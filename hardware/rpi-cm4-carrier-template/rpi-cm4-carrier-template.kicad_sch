@@ -29,22 +29,9 @@
     )
   )
 
-  (sheet (at 101.6 101.6) (size 38.1 38.1)
-    (stroke (width 0) (type solid) (color 132 0 132 1))
-    (fill (color 255 255 255 0.0000))
-    (uuid caa71f4c-454d-4ac9-b287-456eafb34991)
-    (property "Sheet name" "CM4 High Speed" (id 0) (at 101.6 100.9645 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "cm4-high-speed.kicad_sch" (id 1) (at 101.6 140.2085 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet_instances
     (path "/" (page "1"))
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91" (page "3"))
-    (path "/caa71f4c-454d-4ac9-b287-456eafb34991" (page "3"))
   )
 
   (symbol_instances
@@ -69,12 +56,6 @@
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/491accc4-ee67-4604-8f16-3bfccb786804"
       (reference "#PWR07") (unit 1) (value "GND") (footprint "")
     )
-    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/0d0caf91-4ece-48ed-a178-43a8b49f3526"
-      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/81f0d702-912e-410d-83f3-c9f3bd3f7f28"
-      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
-    )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/4f14133b-d727-49d1-a72c-f20de4669ddb"
       (reference "CR1") (unit 1) (value "SMBJ5.0A-TR") (footprint "SMBJ5.0A-TR:SMBJ5.0A-TR")
     )
@@ -88,10 +69,7 @@
       (reference "LED2") (unit 1) (value "Red LED") (footprint "APA2106SUCK:APA2106SUCK")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/463d59ed-ef45-4402-9140-190527b0aff8"
-      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
-    )
-    (path "/caa71f4c-454d-4ac9-b287-456eafb34991/fafda8be-1326-444e-bcc1-8cb4aded3240"
-      (reference "Module1") (unit 2) (value "ComputeModule4-CM4") (footprint "CM4IO:Raspberry-Pi-4-Compute-Module")
+      (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:MUnitA")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0ffe6f4e-07be-4301-8e64-73de82b31e10"
       (reference "R1") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
