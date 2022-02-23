@@ -1,4 +1,4 @@
-(kicad_sch (version 20210621) (generator eeschema)
+(kicad_sch (version 20211123) (generator eeschema)
 
   (uuid 66dc61e5-068b-4156-b69a-b996048bea67)
 
@@ -72,16 +72,16 @@
       (reference "Module1") (unit 1) (value "ComputeModule4-CM4") (footprint "CM4IO:MUnitA")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/0ffe6f4e-07be-4301-8e64-73de82b31e10"
-      (reference "R1") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+      (reference "R1") (unit 1) (value "5.1k") (footprint "ERJ-PB6B5101V:RESC2012X70N")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/7689b71c-e67e-4da7-97cb-60aa7de9c4c4"
-      (reference "R2") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+      (reference "R2") (unit 1) (value "1k") (footprint "ERJ-PB6B5101V:RESC2012X70N")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/e11961d6-a233-40f3-88cc-7ffbe787fe5b"
-      (reference "R3") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+      (reference "R3") (unit 1) (value "5.1k") (footprint "ERJ-PB6B5101V:RESC2012X70N")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/9d06011e-966a-4c6e-8ab0-29e9a621b294"
-      (reference "R4") (unit 1) (value "ERJ-PB6B5101V") (footprint "ERJ-PB6B5101V:RESC2012X70N")
+      (reference "R4") (unit 1) (value "1k") (footprint "ERJ-PB6B5101V:RESC2012X70N")
     )
     (path "/fc4c71a5-1008-4ac4-98db-57c838c57d91/6176bea6-7378-4da9-914f-02e20a37c591"
       (reference "U1") (unit 1) (value "NLV17SZ07DFT2G") (footprint "NLV17SZ07DFT2G:NLV17SZ07DFT2G")

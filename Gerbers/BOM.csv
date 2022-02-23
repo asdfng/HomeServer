@@ -1,0 +1,8 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"CR1";"SMBJ5.0A-TR";1;"SMBJ5.0A-TR";;;
+2;"U1";"NLV17SZ07DFT2G";1;"NLV17SZ07DFT2G";;;
+3;"R2,R4,R3,R1";"RESC2012X70N";4;"ERJ-PB6B5101V";;;
+4;"LED1";"APA2106SUCK";1;"Green LED";;;
+5;"J1";"GCT_USB4110-GF-A_REVB";1;"USB4110-GF-A_REVB";;;
+6;"LED2";"APA2106SUCK";1;"Red LED";;;
+7;"Module1";"MUnitA";1;"ComputeModule4-CM4";;;
